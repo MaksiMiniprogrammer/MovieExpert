@@ -214,7 +214,7 @@ class MovieExpertView:
         self._create_genre_button(genres, 0, 0, "Драма")
         self._create_genre_button(genres, 0, 1, "Фантастика")
         self._create_genre_button(genres, 1, 0, "Боевик")
-        self._create_genre_button(genres, 1, 1, "Комедия")
+        self._create_genre_button(genres, 1, 1, "Романтическая комедия")
 
         bottom = ttk.Frame(parent, style="Card.TFrame")
         bottom.grid(row=5, column=0, sticky="ew", pady=(18, 0))
